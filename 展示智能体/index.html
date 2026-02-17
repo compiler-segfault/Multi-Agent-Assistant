@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能体集群创新展示</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B5CF6',
+                        secondary: '#3B82F6',
+                        accent: '#06B6D4',
+                        pink: '#EC4899',
+                        gold: '#F59E0B',
+                        purple: '#A855F7',
+                        blue: '#3B82F6',
+                        cyan: '#06B6D4',
+                        dark: '#0F172A',
+                        light: '#F8FAFC'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            }
+            .gradient-bg {
+                background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #06B6D4 100%);
+            }
+            .gradient-purple-blue {
+                background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
+            }
+            .gradient-blue-cyan {
+                background: linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%);
+            }
+            .gradient-pink-purple {
+                background: linear-gradient(135deg, #EC4899 0%, #8B5CF6 100%);
+            }
+            .gradient-gold-purple {
+                background: linear-gradient(135deg, #F59E0B 0%, #8B5CF6 100%);
+            }
+            .gradient-blue-light {
+                background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.2) 100%);
+            }
+            .gradient-cyan-light {
+                background: linear-gradient(135deg, rgba(6, 182, 212, 0.1) 0%, rgba(6, 182, 212, 0.2) 100%);
+            }
+            .gradient-purple-light {
+                background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(168, 85, 247, 0.2) 100%);
+            }
+            .gradient-pink-light {
+                background: linear-gradient(135deg, rgba(236, 72, 153, 0.1) 0%, rgba(236, 72, 153, 0.2) 100%);
+            }
+            .gradient-gold-light {
+                background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, rgba(245, 158, 11, 0.2) 100%);
+            }
+            .card-hover {
+                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            }
+            .card-hover:hover {
+                transform: translateY(-10px) scale(1.02);
+                box-shadow: 0 20px 40px rgba(139, 92, 246, 0.3);
+            }
+            .section-padding {
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
+            .section-title {
+                font-size: 1.875rem;
+                line-height: 2.25rem;
+                font-weight: 700;
+                margin-bottom: 0.75rem;
+                background: linear-gradient(135deg, #8B5CF6, #3B82F6, #06B6D4);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .section-subtitle {
+                color: #64748b;
+                max-width: 48rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @keyframes float {
+                0%, 100% { transform: translateY(0px) rotate(0deg); }
+                25% { transform: translateY(-5px) rotate(1deg); }
+                75% { transform: translateY(5px) rotate(-1deg); }
+            }
+            .animate-float {
+                animation: float 4s ease-in-out infinite;
+            }
+            @keyframes float-alt {
+                0%, 100% { transform: translateY(0px); }
+                50% { transform: translateY(-15px); }
+            }
+            .animate-float-alt {
+                animation: float-alt 3.5s ease-in-out infinite;
+            }
+            @keyframes pulse-glow {
+                0%, 100% { box-shadow: 0 0 20px rgba(139, 92, 246, 0.4); }
+                50% { box-shadow: 0 0 40px rgba(139, 92, 246, 0.8); }
+            }
+            .animate-pulse-glow {
+                animation: pulse-glow 2.5s ease-in-out infinite;
+            }
+            @keyframes spin-slow {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+            .animate-spin-slow {
+                animation: spin-slow 20s linear infinite;
+            }
+            @keyframes gradient-shift {
+                0% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
+            }
+            .animate-gradient-shift {
+                background-size: 200% 200%;
+                animation: gradient-shift 8s ease infinite;
+            }
+            @keyframes shimmer {
+                0% { background-position: -200% 0; }
+                100% { background-position: 200% 0; }
+            }
+            .animate-shimmer {
+                background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+                background-size: 200% 100%;
+                animation: shimmer 2s infinite;
+            }
+            .glow-purple {
+                box-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+            }
+            .glow-cyan {
+                box-shadow: 0 0 30px rgba(6, 182, 212, 0.5);
+            }
+            .glow-pink {
+                box-shadow: 0 0 30px rgba(236, 72, 153, 0.5);
+            }
+            .glow-gold {
+                box-shadow: 0 0 30px rgba(245, 158, 11, 0.5);
+            }
+            .border-glow {
+                box-shadow: 0 0 0 2px rgba(139, 92, 246, 0.3);
+            }
+        }
+    </style>
+</head>
+<body class="font-inter bg-light text-dark min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
