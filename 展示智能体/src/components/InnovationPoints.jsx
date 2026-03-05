@@ -58,7 +58,7 @@ const InnovationPoints = () => {
                     </div>
                     
                     <h4 className="text-xl font-bold text-gray-800 mb-3">单点智能时代</h4>
-                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">传统的AI系统依赖单一模型处理任务，缺乏灵活性和扩展性，无法满足复杂场景的需求</p>
+                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">传统AI系统依赖单一模型处理任务，缺乏灵活性与扩展性，难以应对复杂场景。</p>
                     <div className="flex flex-wrap gap-2 justify-end">
                       <span className="px-4 py-1.5 bg-purple/10 text-purple rounded-full text-xs font-semibold border border-purple/20">
                         <i className="fa fa-check-circle mr-1"></i>
@@ -107,12 +107,12 @@ const InnovationPoints = () => {
                     <div className="flex items-center justify-start mb-4">
                       <span className="px-5 py-2 bg-gradient-to-r from-blue to-cyan text-white rounded-full text-sm font-bold shadow-lg">
                         <i className="fa fa-calendar mr-2"></i>
-                        2022-2023
+                        2023-2024
                       </span>
                     </div>
                     
                     <h4 className="text-xl font-bold text-gray-800 mb-3">智能体协作探索</h4>
-                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">开始尝试多个智能体的简单协作，初步实现日常问答、分析等智能体的配合，提高任务处理能力</p>
+                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">随着大模型兴起，开始尝试多个模型的简单组合，实现任务分解与并行处理，开启多智能体协作的初步探索。</p>
                     <div className="flex flex-wrap gap-2 justify-start">
                       <span className="px-4 py-1.5 bg-blue/10 text-blue rounded-full text-xs font-semibold border border-blue/20">
                         <i className="fa fa-check-circle mr-1"></i>
@@ -161,12 +161,12 @@ const InnovationPoints = () => {
                     <div className="flex items-center justify-end mb-4">
                       <span className="px-5 py-2 bg-gradient-to-r from-cyan to-pink text-white rounded-full text-sm font-bold shadow-lg">
                         <i className="fa fa-calendar mr-2"></i>
-                        2023-2024
+                        2024-2025
                       </span>
                     </div>
                     
                     <h4 className="text-xl font-bold text-gray-800 mb-3">智能体集群初步</h4>
-                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">构建基础的集群架构，实现日常问答、分析、规划、执行、评估等智能体的协同工作</p>
+                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">构建基础集群架构，多个专业智能体协同工作，引入角色分工、通信协议与任务调度，显著提升复杂任务处理能力。</p>
                     <div className="flex flex-wrap gap-2 justify-end">
                       <span className="px-4 py-1.5 bg-cyan/10 text-cyan rounded-full text-xs font-semibold border border-cyan/20">
                         <i className="fa fa-check-circle mr-1"></i>
@@ -215,12 +215,12 @@ const InnovationPoints = () => {
                     <div className="flex items-center justify-start mb-4">
                       <span className="px-5 py-2 bg-gradient-to-r from-pink to-gold text-white rounded-full text-sm font-bold shadow-lg">
                         <i className="fa fa-calendar mr-2"></i>
-                        2024-至今
+                        2025-至今
                       </span>
                     </div>
                     
                     <h4 className="text-xl font-bold text-gray-800 mb-3">智能体集群范式</h4>
-                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">成熟的智能体集群助手系统，实现日常问答、分析、规划、执行、评估等智能体的高效协同和动态调整</p>
+                    <p className="text-gray-600 text-sm mb-5 leading-relaxed">成熟的智能体集群系统，如智谱GLM-5、Kimi K2.5，实现高效协同、动态资源调度、强容错与可扩展性，并向具身智能、多模态等方向延伸。</p>
                     <div className="flex flex-wrap gap-2 justify-start">
                       <span className="px-4 py-1.5 bg-pink/10 text-pink rounded-full text-xs font-semibold border border-pink/20">
                         <i className="fa fa-check-circle mr-1"></i>

@@ -21,7 +21,7 @@ const DesignDiagram = () => {
     },
     {
       name: '智能体执行层',
-      items: ['数据处理智能体', '决策智能体', '通信智能体', '监控智能体', '学习智能体'],
+      items: ['问答智能体', '分析智能体', '规划智能体', '执行智能体', '评估智能体'],
       description: '由各类专业智能体组成，负责具体任务的执行',
       icon: 'fa-cogs',
       color: 'from-cyan to-pink',

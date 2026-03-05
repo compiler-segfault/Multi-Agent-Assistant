@@ -63,10 +63,10 @@ const ChatWindow = ({ isOpen, onClose }) => {
     // 根据智能体类型选择对应的模型
     const modelMap = {
       daily: 'deepseek-chat', // 日常问答智能体，使用通用模型
-      analysis: 'deepseek-chat', // 分析智能体，对应 DeepSeek-R1
+      analysis: 'deepseek-r1-0528', // 分析智能体，对应 DeepSeek-R1
       planning: 'deepseek-coder', // 规划智能体，对应 DeepSeek-Coder
       execution: 'deepseek-vl', // 执行智能体，对应 DeepSeek-VL
-      evaluation: 'deepseek-chat' // 评估智能体，对应 DeepSeek-R1
+      evaluation: 'deepseek-r1-0528' // 评估智能体，对应 DeepSeek-R1
     };
 
     const selectedModel = modelMap[agentType] || 'deepseek-chat';
@@ -134,7 +134,7 @@ const ChatWindow = ({ isOpen, onClose }) => {
           model: selectedModel,
           messages: messages,
           temperature: 0.7,
-          max_tokens: 2000,
+          max_tokens: 5000,
           stream: true
         })
       });

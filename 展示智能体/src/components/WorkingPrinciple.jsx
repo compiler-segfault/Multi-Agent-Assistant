@@ -31,7 +31,7 @@ const WorkingPrinciple = () => {
     datasets: [
       {
         label: '智能体集群',
-        data: [0.5, 1.2, 2.1, 5.3, 9.8],
+        data: [1.2, 4.3, 6.6, 7.8, 8.5],
         borderColor: '#3B82F6',
         backgroundColor: 'rgba(59, 130, 246, 0.1)',
         tension: 0.3,
@@ -39,7 +39,7 @@ const WorkingPrinciple = () => {
       },
       {
         label: '单智能体',
-        data: [0.8, 2.5, 4.7, 15.2, 32.5],
+        data: [0.1, 0.7, 1.6, 5.6, 10.8],
         borderColor: '#6366F1',
         backgroundColor: 'rgba(99, 102, 241, 0.1)',
         tension: 0.3,
