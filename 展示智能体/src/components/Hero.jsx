@@ -45,7 +45,7 @@ const Hero = ({ scrollToContent }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          智能体集群助手：下一代 AI 协作范式
+          智能体集群助手 · 双模式智能协作平台
         </motion.h1>
         <motion.p
           className="text-xl md:text-2xl lg:text-3xl text-white/90 mb-10 max-w-4xl"
@@ -53,7 +53,7 @@ const Hero = ({ scrollToContent }) => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          基于智谱 GLM-5 / Kimi K2.5 的创新探索
+          聚合·超维并行｜解构·精妙协同
         </motion.p>
         <motion.div
           className="flex flex-col sm:flex-row gap-4"

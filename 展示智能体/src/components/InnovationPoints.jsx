@@ -290,16 +290,16 @@ const InnovationPoints = () => {
                     whileHover={{ rotate: 10 }}
                     className="w-16 h-16 bg-white/25 rounded-2xl flex items-center justify-center mr-5 backdrop-blur-sm border border-white/30"
                   >
-                    <i className="fa fa-sitemap text-white text-3xl"></i>
+                    <i className="fa fa-exchange text-white text-3xl"></i>
                   </motion.div>
-                  <h4 className="text-2xl font-bold text-white">去中心化协作架构</h4>
+                  <h4 className="text-2xl font-bold text-white">双模式切换</h4>
                 </div>
               </div>
               
               <div className="p-7">
                 <div className="flex items-center mb-4">
                   <div className="w-1 h-12 bg-purple rounded-full mr-4"></div>
-                  <p className="text-gray-600 text-sm leading-relaxed">采用去中心化的架构设计，支持智能体的高效协作，避免单点故障，提高系统的可靠性和可扩展性</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">首创聚合增强与解构协同双模式，前端一键点击转换，追求速度时并行，需要深度时透明可干预</p>
                 </div>
                 
                 <div className="pt-4 border-t border-gray-100">
@@ -307,12 +307,12 @@ const InnovationPoints = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-2.5 h-2.5 bg-gradient-to-br from-purple to-blue rounded-full mt-1.5 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-semibold text-gray-800 mb-1">核心技术</h5>
+                        <h5 className="font-semibold text-gray-800 mb-1">核心优势</h5>
                         <div className="grid grid-cols-2 gap-2 mt-2">
-                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">智能体通信协议</span>
-                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">动态负载均衡</span>
-                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">容错机制</span>
-                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">弹性扩展</span>
+                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">灵活切换</span>
+                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">效率优先</span>
+                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">深度可控</span>
+                          <span className="text-xs text-gray-600 bg-purple/10 px-3 py-1 rounded-full">用户主导</span>
                         </div>
                       </div>
                     </div>
@@ -338,16 +338,16 @@ const InnovationPoints = () => {
                     whileHover={{ rotate: 10 }}
                     className="w-16 h-16 bg-white/25 rounded-2xl flex items-center justify-center mr-5 backdrop-blur-sm border border-white/30"
                   >
-                    <i className="fa fa-random text-white text-3xl"></i>
+                    <i className="fa fa-eye text-white text-3xl"></i>
                   </motion.div>
-                  <h4 className="text-2xl font-bold text-white">自适应任务分配</h4>
+                  <h4 className="text-2xl font-bold text-white">透明化协作流程</h4>
                 </div>
               </div>
               
               <div className="p-7">
                 <div className="flex items-center mb-4">
                   <div className="w-1 h-12 bg-blue rounded-full mr-4"></div>
-                  <p className="text-gray-600 text-sm leading-relaxed">基于智能体专业能力和任务特性的自适应分配算法，为智能体分配最合适的任务，实现最优任务调度</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">解构协同模式全程展示任务拆解与执行过程，用户可实时追踪、参与决策</p>
                 </div>
                 
                 <div className="pt-4 border-t border-gray-100">
@@ -355,12 +355,12 @@ const InnovationPoints = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-2.5 h-2.5 bg-gradient-to-br from-blue to-cyan rounded-full mt-1.5 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-semibold text-gray-800 mb-1">核心技术</h5>
+                        <h5 className="font-semibold text-gray-800 mb-1">核心优势</h5>
                         <div className="grid grid-cols-2 gap-2 mt-2">
-                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">智能任务调度</span>
-                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">负载均衡</span>
-                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">任务依赖处理</span>
-                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">动态重分配</span>
+                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">实时追踪</span>
+                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">决策参与</span>
+                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">增强信任</span>
+                          <span className="text-xs text-gray-600 bg-blue/10 px-3 py-1 rounded-full">过程透明</span>
                         </div>
                       </div>
                     </div>
@@ -386,16 +386,16 @@ const InnovationPoints = () => {
                     whileHover={{ rotate: 10 }}
                     className="w-16 h-16 bg-white/25 rounded-2xl flex items-center justify-center mr-5 backdrop-blur-sm border border-white/30"
                   >
-                    <i className="fa fa-refresh text-white text-3xl"></i>
+                    <i className="fa fa-code-fork text-white text-3xl"></i>
                   </motion.div>
-                  <h4 className="text-2xl font-bold text-white">实时状态同步机制</h4>
+                  <h4 className="text-2xl font-bold text-white">专业化模型映射</h4>
                 </div>
               </div>
               
               <div className="p-7">
                 <div className="flex items-center mb-4">
                   <div className="w-1 h-12 bg-cyan rounded-full mr-4"></div>
-                  <p className="text-gray-600 text-sm leading-relaxed">开发高效的状态同步机制，确保日常问答、分析、规划、执行、评估等智能体之间信息的实时共享和一致性，实现无缝协作</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">为不同智能体分配最擅长的模型（R1/Coder/VL/通用），提升处理质量，并优化资源利用</p>
                 </div>
                 
                 <div className="pt-4 border-t border-gray-100">
@@ -403,12 +403,12 @@ const InnovationPoints = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-2.5 h-2.5 bg-gradient-to-br from-cyan to-pink rounded-full mt-1.5 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-semibold text-gray-800 mb-1">核心技术</h5>
+                        <h5 className="font-semibold text-gray-800 mb-1">核心优势</h5>
                         <div className="grid grid-cols-2 gap-2 mt-2">
-                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">实时状态同步</span>
-                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">事件驱动架构</span>
-                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">一致性保障</span>
-                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">冲突解决</span>
+                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">专业分工</span>
+                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">质量提升</span>
+                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">资源优化</span>
+                          <span className="text-xs text-gray-600 bg-cyan/10 px-3 py-1 rounded-full">灵活配置</span>
                         </div>
                       </div>
                     </div>
@@ -434,16 +434,16 @@ const InnovationPoints = () => {
                     whileHover={{ rotate: 10 }}
                     className="w-16 h-16 bg-white/25 rounded-2xl flex items-center justify-center mr-5 backdrop-blur-sm border border-white/30"
                   >
-                    <i className="fa fa-shield text-white text-3xl"></i>
+                    <i className="fa fa-cubes text-white text-3xl"></i>
                   </motion.div>
-                  <h4 className="text-2xl font-bold text-white">故障自动恢复</h4>
+                  <h4 className="text-2xl font-bold text-white">模块化可扩展架构</h4>
                 </div>
               </div>
               
               <div className="p-7">
                 <div className="flex items-center mb-4">
                   <div className="w-1 h-12 bg-pink rounded-full mr-4"></div>
-                  <p className="text-gray-600 text-sm leading-relaxed">实现智能体故障的自动检测和恢复机制，提高系统的容错能力</p>
+                  <p className="text-gray-600 text-sm leading-relaxed">采用策略、解耦模式，模型映射与调用分离，为边缘部署和模型升级预留扩展空间</p>
                 </div>
                 
                 <div className="pt-4 border-t border-gray-100">
@@ -451,12 +451,12 @@ const InnovationPoints = () => {
                     <div className="flex items-start gap-3">
                       <div className="w-2.5 h-2.5 bg-gradient-to-br from-pink to-gold rounded-full mt-1.5 flex-shrink-0"></div>
                       <div>
-                        <h5 className="font-semibold text-gray-800 mb-1">核心技术</h5>
+                        <h5 className="font-semibold text-gray-800 mb-1">核心优势</h5>
                         <div className="grid grid-cols-2 gap-2 mt-2">
-                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">故障检测</span>
-                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">自动恢复</span>
-                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">容错设计</span>
-                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">资源调度</span>
+                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">策略解耦</span>
+                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">灵活扩展</span>
+                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">边缘部署</span>
+                          <span className="text-xs text-gray-600 bg-pink/10 px-3 py-1 rounded-full">模型升级</span>
                         </div>
                       </div>
                     </div>
