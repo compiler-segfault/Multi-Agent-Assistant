@@ -1,9 +1,25 @@
-<<<<<<< HEAD
 # 智能体集群助手
 
 ## 项目介绍
 
 智能体集群助手是一个基于多智能体协作的AI系统，旨在为用户提供专业、个性化的学习成长支持。系统由多个专业智能体组成，通过灵活的协作机制，为用户解决学习、竞赛、科研和职业规划等方面的问题。
+
+## 快速开始
+
+本项目通过本地配置文件读取 API Key，**仓库中不包含任何密钥**。
+
+```bash
+cd 展示智能体
+npm install
+copy .env.example .env.local      # macOS / Linux: cp .env.example .env.local
+# 编辑 .env.local，填入自己的 VITE_DEEPSEEK_API_KEY
+npm run dev
+```
+
+`.env.local` 已被 `.gitignore` 忽略，不会被提交。请勿把真实 Key 写入任何被 git 跟踪的文件。
+
+> ⚠️ 安全提示：`VITE_` 开头的变量会被 Vite 打包进前端 JS 产物，页面访客可通过浏览器开发者工具看到。
+> 若要把本站部署到公网并长期使用，应改为由后端代理转发 DeepSeek 请求，Key 只保存在服务端。
 
 ## 核心功能
 

@@ -64,8 +64,15 @@ const ChatWindow = ({ isOpen, onClose }) => {
   }, [isOpen, messages.length]);
 
   const callDeepSeekAPI = async (userMessage, history, updateCallback, agentType = 'analysis') => {
-    const apiKey = 'sk-7d5208185327452daa54c1a1061e4c42';
-    const apiUrl = 'https://api.deepseek.com/chat/completions';
+    // API Key 从本地配置文件读取，禁止硬编码进源码
+    // 配置模板：展示智能体/.env.example   实际配置：展示智能体/.env.local（已被 .gitignore 忽略）
+    const apiKey = import.meta.env.VITE_DEEPSEEK_API_KEY;
+    const apiUrl = import.meta.env.VITE_DEEPSEEK_API_URL || 'https://api.deepseek.com/chat/completions';
+
+    if (!apiKey) {
+      console.error('[配置缺失] 未读取到 VITE_DEEPSEEK_API_KEY，请复制 .env.example 为 .env.local 并填入 Key 后重启开发服务器。');
+      return '抱歉，智能体集群尚未完成配置（缺少 API Key），请联系管理员。';
+    }
 
     // 根据智能体类型选择对应的模型
     const modelMap = {
